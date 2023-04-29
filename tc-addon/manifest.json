@@ -1,0 +1,21 @@
+{
+    "icon": "http://de-tech.no/tc-addon/favicon.png",
+    "title": "DigitalEngineeringTechnologies TC-Addon",
+    "url": "http://de-tech.no/tc-addon/index.html",
+    "description": "DigitalEngineeringTechnologies extentions to Trimble Connect Web",
+    "configCommand": "do_config",
+    "enabled": false,
+    "command": "QUADRI_TOP_MENU",
+    "subMenus": [
+        {
+            "title": "Quadri shared Modelsubmenu1",
+            "icon": "http://oscarjacobsen.no/trimble-connect-addon/favicon.png",
+            "command": "QUADRI_SUB_MENU1"
+        },
+        {
+            "title": "Quadri shared Model submenu2",
+            "icon": "http://oscarjacobsen.no/trimble-connect-addon/favicon.png",
+            "command": "QUADRI_SUB_MENU2"
+        }
+    ]
+}
