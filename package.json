@@ -2,9 +2,6 @@
   "name": "det-react",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "three": "^0.152.2"
-  },
   "scripts": {
     "build": "rollup -c ./rollup.config.js",
     "watch": "rollup -w -c ./rollup.config.js"
@@ -30,5 +27,9 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.2",
     "rollup": "^2.79.1"
+  },
+  "dependencies": {
+    "three": "^0.152.2",
+    "web-ifc-three": "^0.0.125"
   }
 }
